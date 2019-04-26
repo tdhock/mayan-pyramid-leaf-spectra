@@ -1,6 +1,6 @@
 source("packages.R")
 
-reg.dir <- "registry-tuneGrid"
+reg.dir <- "registry-150comp"
 if(FALSE){# run this to delete registry if you want to restart from scratch.
   unlink(reg.dir, recursive=TRUE)
 }
@@ -84,7 +84,7 @@ pred.fun.list <- list(
       data=train.dt,
       method="pls",
       preProc=c("center", "scale"),
-      tuneGrid=expand.grid(ncomp=seq(2, 150, by=2)),
+      tuneGrid=expand.grid(ncomp=seq(2, 200, by=2)),
       trControl=caret::trainControl(
         method="cv",
         classProbs=TRUE,
