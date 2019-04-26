@@ -1,0 +1,15 @@
+** 26 Apr 2019
+
+[[file:Mayan_folds.R]] saves randomly assigned Fold IDS to
+[[file:Mayan_folds.csv]]
+
+[[file:figure-spectra.R]] creates
+
+[[file:figure-spectra.png]] and
+
+[[file:figure-spectra-importance.png]]
+
+[[file:figure-evaluate.R]] creates
+
+[[file:figure-evaluate.png]]
+
